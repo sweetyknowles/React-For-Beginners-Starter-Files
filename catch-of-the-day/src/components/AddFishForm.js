@@ -21,6 +21,9 @@ class AddFishForm extends React.Component {
   };
 
   this.props.addFish(fish)
+  //refresh the form itself
+event.currentTarget
+
   render() {
     return (
       <div>
